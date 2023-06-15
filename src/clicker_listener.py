@@ -9,13 +9,13 @@ class ClickerListener(Listener):
 
     def on_press(self, key):
         if key == constants.START_KEY and not self.thread.running:
-            print("Clicker started")
+            print(constants.START_TEXT)
             self.thread.start_clicks()
         elif key == constants.STOP_KEY and self.thread.running:
-            print("Clicker stopped")
+            print(constants.STOP_TEXT)
             self.thread.stop_clicks()
         elif key == constants.THREAD_STOP_KEY:
-            print("Thread stopped")
+            print(constants.THREAD_STOP_TEXT)
             self.thread.exit()
             self.stop()
 

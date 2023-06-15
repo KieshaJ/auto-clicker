@@ -4,12 +4,12 @@ import threading
 from src import constants
 
 class Clicker(threading.Thread):
-    def __init__(self, delay, thread_delay, button):
+    def __init__(self):
         super(Clicker, self).__init__();
         self.mouse = constants.MOUSE
-        self.delay = delay
-        self.thread_delay = thread_delay
-        self.button = button
+        self.delay = constants.DELAY
+        self.thread_delay = constants.THREAD_DELAY
+        self.button = constants.BUTTON_ONE
         self.running = False
         self.thread_running = True
 
