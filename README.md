@@ -1,4 +1,4 @@
-# auto-clicker
+# Auto-Clicker
 ![GitHub Pipenv locked Python version](https://img.shields.io/github/pipenv/locked/python-version/KieshaJ/auto-clicker)
 ## A simple utility for generating mouse inputs
 
