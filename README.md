@@ -1,5 +1,5 @@
 # auto-clicker
-[![Python 3.10.0](<img alt="brightgreen" src="https://img.shields.io/badge/-brightgreen-brightgreen">)](https://www.python.org/downloads/release/python-3100/)
+[![Python 3.10.0]("https://img.shields.io/badge/python-3.10-blue.svg")](https://www.python.org/downloads/release/python-3100/)
 ## A simple utility for generating mouse inputs
 
 ### Table of Contents
