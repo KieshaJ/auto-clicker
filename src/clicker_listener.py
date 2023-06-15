@@ -1,6 +1,6 @@
-from src import constants
-
 from pynput.keyboard import Listener
+
+from src import constants
 
 class ClickerListener(Listener):
     def __init__(self, thread):

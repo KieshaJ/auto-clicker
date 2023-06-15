@@ -7,3 +7,4 @@ thread.start()
 
 with ClickerListener(thread=thread) as listener:
     listener.join()
+
