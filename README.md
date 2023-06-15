@@ -1,5 +1,6 @@
 # auto-clicker
 [![Python 3.10.0]("https://img.shields.io/badge/python-3.10-blue.svg")](https://www.python.org/downloads/release/python-3100/)
+![GitHub Pipenv locked Python version](https://img.shields.io/github/pipenv/locked/python-version/KieshaJ/auto-clicker)
 ## A simple utility for generating mouse inputs
 
 ### Table of Contents
